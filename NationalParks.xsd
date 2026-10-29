@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
 <xsd:schema xmlns:xsdi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="NationalParks">
+  <xsd:element maxOccurs="unbounded" name="NationalParks">
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element name="NationalPark">
