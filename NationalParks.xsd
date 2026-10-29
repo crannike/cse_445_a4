@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xsd:schema xmlns:xsdi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="National_Parks">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="National_Park">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Name" type="xsd:string" />
+              <xsd:element maxOccurs="unbounded" name="Phone" type="xsd:string" />
+              <xsd:element name="Address">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Number" type="xsd:unsignedShort" />
+                    <xsd:element name="Street" type="xsd:string" />
+                    <xsd:element name="City" type="xsd:string" />
+                    <xsd:element name="State" type="xsd:string" />
+                    <xsd:element name="Zip" type="xsd:unsignedShort" />
+                  </xsd:sequence>
+                  <xsd:attribute name="NearestAirport" type="xsd:string" use="required" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="Rating" type="xsd:decimal" use="required" />
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
