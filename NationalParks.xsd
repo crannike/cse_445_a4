@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
-<xsd:schema xmlns:xsdi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema targetNamespace="http://tempuri.org/NationalParks.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <xsd:element name="NationalParks">
     <xsd:complexType>
       <xsd:sequence>
@@ -8,7 +8,7 @@
           <xsd:complexType>
             <xsd:sequence>
               <xsd:element name="Name" type="xsd:string" />
-              <xsd:element minOccurs="1" maxOccurs="unbounded" name="Phone" type="xsd:string" />
+              <xsd:element maxOccurs="unbounded" name="Phone" type="xsd:string" />
               <xsd:element name="Address">
                 <xsd:complexType>
                   <xsd:sequence>
