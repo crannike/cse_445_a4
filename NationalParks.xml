@@ -14,7 +14,7 @@
       <Zip>86023</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.9">
+  <NationalPark>
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
     <Address NearestAirport="St. George">
@@ -37,7 +37,7 @@
       <Zip>80517</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.8">
+  <NationalPark>
     <Name>Great Smoky Mountains</Name>
     <Phone>865-436-1200</Phone>
     <Address NearestAirport="Knoxville">
@@ -61,7 +61,7 @@
       <Zip>98362</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.8">
+  <NationalPark>
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
     <Address NearestAirport="Bar Harbor">
@@ -84,7 +84,7 @@
       <Zip>92277</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.8">
+  <NationalPark>
     <Name>Mount Rainier</Name>
     <Phone>360-569-2211</Phone>
     <Phone>360-569-6575</Phone>
@@ -108,7 +108,7 @@
       <Zip>22835</Zip>
     </Address>
   </NationalPark>
-  <NationalPark Rating="4.6">
+  <NationalPark>
     <Name>Everglades</Name>
     <Phone>305-242-7700</Phone>
     <Address NearestAirport="Miami">
